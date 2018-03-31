@@ -1,10 +1,10 @@
 #!/bin/bash
 # kernel build script by Tkkg1994 v0.6 (optimized from apq8084 kernel source)
 
-export MODEL=dream2lte
+export MODEL=dreamlte
 export VARIANT=eur
 export ARCH=arm64
-export BUILD_CROSS_COMPILE=../Toolchain/aarch64-cortex_a53-linux-gnueabi-6.4.0/bin/aarch64-cortex_a53-linux-gnueabi-
+export BUILD_CROSS_COMPILE=/media/Lollipop/Oreo/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-gnu-linaro-6.4/bin/aarch64-linux-gnu-
 export BUILD_JOB_NUMBER=`grep processor /proc/cpuinfo|wc -l`
 
 RDIR=$(pwd)
