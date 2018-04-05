@@ -6,7 +6,8 @@ export VARIANT=eur
 export ARCH=arm64
 export SUBARCH=arm64
 #export BUILD_CROSS_COMPILE=/media/Lollipop/Oreo/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9/bin/aarch64-linux-android-
-export BUILD_CROSS_COMPILE=/media/Lollipop/Oreo/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-gnu-linaro-6.4/bin/aarch64-linux-gnu-
+export BUILD_CROSS_COMPILE=/media/Lollipop/Oreo/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-gnu-gcc-6.4.1/bin/aarch64-linux-gnu-
+#export BUILD_CROSS_COMPILE=/media/Lollipop/Oreo/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-gnu-linaro-6.4/bin/aarch64-linux-gnu-
 export BUILD_JOB_NUMBER=`grep processor /proc/cpuinfo|wc -l`
 
 RDIR=$(pwd)
